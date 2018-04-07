@@ -1,11 +1,11 @@
-$primary_color: #222;
+$primary_color: #0012ff;
 $secondary_color: #567654;
-$page_width: 965px;
+$page_width: 1000px;
 
 body{
     width: $page_width;
-    background: white;
-    font-color: $primary_color;
+    background: $primary_color;
+    color: black;
     margin: 5px 5px 10px 20px;
     // Recuerde el alcance de un Selector en Sass
     h1{
