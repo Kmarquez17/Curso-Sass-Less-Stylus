@@ -1,13 +1,6 @@
-body {
-  width: 1000px;
-  background: #0012ff;
-  color: black;
-  margin: 5px 5px 10px 20px; }
-  body h1 {
-    font-color: #567654; }
-#container {
-  width: 30px;
-  background: red;
-  margin: auto;
-  border-radius: 50%;
-  height: 100%; }
+/*-----------------------*
+        $colors 
+        Brandin Colors
+------------------------*/
+table tr {
+  background-color: #dbd879; }

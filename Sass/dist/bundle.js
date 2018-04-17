@@ -71,9 +71,6 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_styles_scss__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_styles_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__css_styles_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_container_scss__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_container_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_container_scss__);
-
 
 
 console.log('Hola mundo!, desde Webpack en un webpack.config');
@@ -81,12 +78,6 @@ console.log('Hola mundo!, desde Webpack en un webpack.config');
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 2 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
