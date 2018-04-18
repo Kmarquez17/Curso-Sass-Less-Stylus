@@ -1,2 +1,18 @@
-@import '../../lib/_variables';
+//Librerias, Settings y Variables
+@import './lib/_variables';
+@import './lib/_mixins';
+
+//Elementos bases
 @import './_tablas';
+@import '../css/base/_botones';
+@import '../css/base/_links';
+@import '../css/base/_tipografia';
+
+
+//Componentes
+@import '../css/components/_grids';
+
+//Layout 
+@import '../css/layout/_layout';
+//Utilidades siempre va de ultimo
+@import '../css/components/utilities';

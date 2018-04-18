@@ -1,0 +1,17 @@
+
+section {
+    @include max-width;
+    @include response-to(800px){
+        background-color: red;
+    }
+    background-color: $color-lightgrey;
+    padding: $padding;
+}
+header{
+    background-color: $color-brand;
+}
+.max-width--huge{
+    @include max-width(1200px);
+    background-color: pink;
+}
+

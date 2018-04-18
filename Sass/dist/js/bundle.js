@@ -75,7 +75,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 console.log('Hola mundo!, desde Webpack en un webpack.config');
 
-
 /***/ }),
 /* 1 */
 /***/ (function(module, exports) {
