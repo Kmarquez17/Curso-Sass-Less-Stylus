@@ -5,6 +5,27 @@
 /*------------------
     $MIXINS
 ------------------*/
+.normal {
+  font-weight: normal; }
+
+.bold {
+  font-weight: bold; }
+
+.italic {
+  font-weight: italic; }
+
+.class-1:before {
+  content: "1"; }
+
+.class-2:before {
+  content: "2"; }
+
+.class-3:before {
+  content: "3"; }
+
+.class-4:before {
+  content: "4"; }
+
 table tr {
   background-color: #dbd879; }
 
@@ -29,6 +50,10 @@ table tr {
 /*------------------
     $TIPOGRAFIAS
 ------------------*/
+h1 {
+  font-size: 24px;
+  padding: 25px; }
+
 /*------------------
     $GRIDS
 ------------------*/
@@ -36,7 +61,7 @@ section {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #bfbfbf;
+  background-color: #b3b3b3;
   padding: 24px; }
   @media screen and (min-width: 800px) {
     section {

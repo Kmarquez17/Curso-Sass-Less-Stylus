@@ -1,0 +1,28 @@
+//Funciones
+$fs :(
+  big: 24px,
+  normal: 16px,
+  small: 14px,
+  x-small: 12px
+);
+
+@function suma($num_1,$num_2){
+  @return $num_1+$num_2;
+}
+
+
+//Listas y Directivas Each
+$font-weights: normal bold italic;
+
+@each $font in ($font-weights){
+  .#{$font} {font-weight: $font;}
+}
+
+//FOR
+@for $i from 1 to 5{
+  .class-#{$i}{
+    &:before{
+      content: "#{$i}";
+    }
+  }
+}

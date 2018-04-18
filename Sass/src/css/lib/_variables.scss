@@ -8,9 +8,9 @@ $color-brand: #ea83ee;
 $color-secundary: rgb(219,216,121);
 
 $color-black: rgb(0,0,0);
-$color-darkgrey:#4d4d4d;
 $color-grey:#737373;
-$color-lightgrey:#bfbfbf;
+$color-darkgrey: darken($color-grey,25%);
+$color-lightgrey: lighten($color-grey,25%);
 $color-white:rgb(255,255,255);
 
 //Texturas
@@ -18,6 +18,7 @@ $color-alert:rgb(252,228,207);
 $color-error:rgb(218,79,73);
 $color-info:rgb(66,184,221);
 $color-sucess:rgb(91,183,91);
+$color-invert: invert($color-error);
 
 // Tipografía
 $basefont: 'Quicksand', sans-serif;
